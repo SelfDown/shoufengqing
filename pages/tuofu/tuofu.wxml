@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='top'>
+      <image src='{{page_data.img_top}}' mode="widthFix" ></image>
+      
+  </view>
+  <view class='course'>
+      <view class='course_item' wx:for="{{page_data.tuofu_course}}" wx:key="{{item.title}}">
+          <view class='content'>
+            <view>
+              <image src='{{item.imgURL}}' mode="widthFix" ></image>
+            </view>
+           
+          </view>
+      </view>
+  </view>
+
+
+  <view class='.div'></view>
+  
+ 
+</view>

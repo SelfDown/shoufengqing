@@ -1,0 +1,49 @@
+{
+
+  
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/webview/webview",
+    "pages/courses/courses",
+    "pages/tuofu/tuofu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "朗阁雅思",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [
+        {
+          "iconPath": "/imgs/home.png",
+          "selectedIconPath": "/imgs/home_selected.png",
+          "pagePath": "pages/index/index",
+          "text": "雅思课程"
+        },
+      {
+        "iconPath": "/imgs/test1.png",
+        "selectedIconPath": "/imgs/test1_selected.png",
+        "pagePath": "pages/courses/courses",
+        "text": "托福课程"
+      },
+    
+      
+      {
+        "iconPath": "/imgs/test2.png",
+        "selectedIconPath": "/imgs/test2_selected.png",
+        "pagePath": "pages/tuofu/tuofu",
+        "text": "综合英语"
+      }
+      ,
+      {
+        "iconPath": "/imgs/test3.png",
+        "selectedIconPath": "/imgs/test3_selected.png",
+        "pagePath": "pages/logs/logs",
+        "text": "北美考试"
+      }
+    ]
+  }
+}

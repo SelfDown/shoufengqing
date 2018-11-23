@@ -1,0 +1,56 @@
+
+.top{
+  width: 100%;
+  text-align: center;
+}
+.top image{
+  width: 100%
+}
+.course{
+ 
+ margin: 10px;
+  text-align: center
+}
+.course .course_item{
+ display: inline-block;
+  transition:width 2s;
+  background-color: 	#F5FFFA;
+  height:320px;
+  width:50px;
+  overflow: hidden;
+  box-shadow: 1px 3px 3px #888;
+ 
+}
+.course .course_item .content{
+  width:228px;
+  height: 100%;
+  margin-left: -178px;
+  transition: margin-left 2s;
+  background-color:#fafafa 
+}
+
+.course_item:hover{
+  width:228px;
+  margin-left: 0px;
+}
+
+.course_item .content:hover{
+  margin-left: 0px
+}
+.course .content image{
+  width: 100%
+}
+
+.div
+{
+width:100px;
+height:100px;
+background:blue;
+transition:background 2s;
+
+}
+
+.div:hover
+{
+background:black;
+}

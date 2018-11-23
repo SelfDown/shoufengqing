@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view >
+  <view class='top'>
+    <image src='{{imageUrl}}' mode="widthFix"></image>
+  </view>
+  <view class='first_img'>
+    <image src='{{youhui}}'mode="widthFix"></image>
+    <button size='mini' hover-class="other-button-hover" bindtap='goBaidu'>立即咨询</button>
+  </view>
+  <view>
+    <view class="text_title">
+      朗阁培训
+    </view>
+    <view class="text_title sub_title">
+      About Longre Training
+    </view>
+    <view class="content">
+      <text>
+        {{text_content}}
+      </text>
+    
+    </view>
+    <view class='img_lange'>
+       <image src='{{langge_img}}' mode="widthFix"></image>
+      <image src='{{langge_img_bottom}}' mode="widthFix"></image>
+    </view>
+
+
+  </view>
+
+</view>

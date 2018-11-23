@@ -1,0 +1,44 @@
+<view class='contain'>
+  <view class='top'>
+      <image src='{{page_data.img_top}}' mode="widthFix" ></image>
+      <text face="FangSong" style='font-size:125%;margin-top:8px'>朗阁雅思课程体系</text> 
+  </view>
+ 
+
+ 
+  <view class='course'>
+    <view class='course_item' wx:for="{{page_data.yasi_course}}" wx:key="{{item.title}}">
+        <view class="header" style='background-color:{{item.color_last}}' bindtap='clickCourse' data-index="{{index}}">
+            <view class="top" style='background-color:{{item.color}}' >
+              <span  class="bar"></span> 
+              <text class='title'>{{item.title}} </text>
+              <text class="sub_title">(保6争8)</text>
+            </view>
+        </view>
+        <view class='table' style=' height:{{item.height}}px;'>
+            <view class='tr' style="padding-top:10px">
+                <view class="first_td">实际课时：</view>
+                <view class="td">{{item.hour}}</view>
+            </view>
+            <view class='tr'>
+                <view class="first_td">班级人数：</view>
+                <view class="td">{{item.students_num}}</view>
+            </view>
+             <view class='tr'>
+                <view class="first_td"> 入学标准：</view>
+                <view class="td">{{item.suite}}</view>
+            </view>
+
+            <view class='tr'>
+                <view class="first_td"></view>
+                <view class="td">{{item.words}}</view>
+            </view>
+           
+
+            <image src='{{item.imgURL}}' mode="widthFix" ></image>
+            
+        </view>
+        
+    </view>
+  </view>
+</view>

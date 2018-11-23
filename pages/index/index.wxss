@@ -1,0 +1,56 @@
+/**index.wxss**/
+.top{
+  width: 100%
+}
+.top image{
+  width: 100%
+}
+.first_img{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.first_img image{
+  width: 52%;
+  margin-top:-1%;
+  
+}
+
+.first_img button{
+  margin-left:7px ;
+  line-height:58rpx;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 25px;
+  background: #7894BB;
+  color: white
+  }
+
+.other-button-hover {
+ 
+  color: wheat;
+}
+
+.text_title{
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  color: #7894bb;
+  margin: 5px;
+  padding-left:18px;
+}
+.sub_title{
+  font-size: 12px
+}
+
+.content{
+  padding: 0 2rem 1rem;
+    font-size: .8rem;
+    color: #505757;
+}
+.img_lange image{
+  width: 100%
+}
+
+
